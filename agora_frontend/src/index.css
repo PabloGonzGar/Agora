@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-agora-dark: #05051a;
+  --color-agora-violet: #6d28d9;
+}
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--color-agora-dark);
+}
+
+body {
+  margin: 0;
+}
